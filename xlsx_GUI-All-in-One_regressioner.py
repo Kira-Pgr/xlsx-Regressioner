@@ -18,7 +18,7 @@ class PolynomialRegressionApp(QWidget):
         self.title_label = QLabel("Graph Title:")
         self.title_input = QLineEdit()
 
-        self.degree_label = QLabel("Polynomial Degree:")
+        self.degree_label = QLabel("Degree:")
         self.degree_combo = QComboBox()
         self.degree_combo.addItems(["1 (Linear)", "2 (Quadratic)", "3 (Cubic)", "4", "5", "6", "7", "8", "9", "10"])
 
